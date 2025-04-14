@@ -16,44 +16,72 @@ export const service = [
   },
   {
     icon: service2,
-    text: "Multi-Platform Compatibility",
+    text: "PPC Precision",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Maximize visibility and drive quality traffic with meticulously targeted Pay-Per-Click campaigns.",
   },
   {
     icon: service3,
-    text: "Built-in Templates",
+    text: "Social Acceleration",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Engage and influence your audience across social media platforms, amplifying your brand's presence and connection.",
   },
   {
     icon: service4,
-    text: "Real-Time Preview",
+    text: "Content Excellence",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Craft compelling, automotive-specific content that resonates with enthusiasts and drives engagement.",
   },
   {
     icon: service5,
-    text: "Collaboration Tools",
+    text: "Web Design",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Transform visitors into customers with high-performance websites designed for seamless user experiences and increased conversions.",
   },
   {
     icon: service6,
-    text: "Analytics Dashboard",
+    text: "Data-Driven Insights",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Leverage data to refine your strategies. making informed decisions that drive revenue growth.",
   },
   {
     icon: service7,
-    text: "Customizable UI Components",
+    text: "End-to-End Solutions",
     description:
-      "Enhance user experience by customizing interface components to suit the specific needs of your VR project.",
+      "From initial awareness to post-purchase loyalty, we offer full-funnel solutions that guide customers through every step of their journey.",
   },
   {
     icon: service8,
-    text: "Cloud-Based Deployment",
+    text: "Video marketing",
     description:
-      "Easily deploy and manage your VR applications via secure and scalable cloud infrastructure.",
+      "Unleash the Power of Video Marketing:Captivate, Engage, and Elevate Your Brand with Compelling Visual Stories.",
   }
+];
+
+export const navigate=[
+    {
+        icon: service1,
+        text: "Automotive SEO",
+        description:
+          "Drive Your Success with Automotive SEO: Ignite Online Visibility and Outrace the Competition. Accelerate Your Business Growth Today",
+      },
+      {
+        icon: service2,
+        text: "PPC Precision",
+        description:
+          "Maximize visibility and drive quality traffic with meticulously targeted Pay-Per-Click campaigns.",
+      },
+      {
+        icon: service3,
+        text: "Social Acceleration",
+        description:
+          "Engage and influence your audience across social media platforms, amplifying your brand's presence and connection.",
+      },
+      {
+        icon: service4,
+        text: "Content Excellence",
+        description:
+          "Craft compelling, automotive-specific content that resonates with enthusiasts and drives engagement.",
+      },
+
 ];

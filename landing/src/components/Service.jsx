@@ -3,7 +3,7 @@ import { service } from '../constant';
 
 const Service = () => {
   return (
-    <div className="mt-20 border-b border-neutral-800 min-h-[800px] px-6">
+    <div className="mt-20 min-h-[800px] px-6 text-center">
       <div className="text-center mb-12">
         <h2 className="font-bold text-3xl md:text-4xl mb-4 text-gray-800">
           Our Service Offerings
@@ -15,7 +15,7 @@ const Service = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10  ">
         {service.map((item, index) => (
-          <div key={index} className="flex flex-col items-center text-center rounded-xl bg-slate-50 mx-2 my-2">
+          <div key={index} className="flex flex-col items-center text-center rounded-xl bg-slate-100 mx-2 my-2 shadow-md transition transform hover:-translate-y-2 hover:shadow-lg duration-300 m-5">
             <div className="h-20 w-20 flex items-center justify-center mb-4">
               <img
                 src={item.icon}
@@ -32,6 +32,8 @@ const Service = () => {
           </div>
         ))}
       </div>
+      <button className='bg-blue-500 w-60 rounded-4xl text-xl h-15 text-white mt-15'>Get started</button>
+
     </div>
   );
 };

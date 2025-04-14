@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection'
 import herobg from './assets/herobg.png';
 import Maestery from './components/Maestery';
 import  Service  from './components/Service';
+import Navigate from './components/Navigate';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <HeroSection/>
       <Maestery/>
       <Service/>
+      <Navigate/>
     </div>
     </div>
     
