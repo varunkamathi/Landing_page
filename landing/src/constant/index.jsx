@@ -6,6 +6,16 @@ import service5 from '../assets/service5.png';
 import service6 from '../assets/service6.png';
 import service7 from '../assets/service7.png';
 import service8 from '../assets/service8.png';
+import inquries1 from '../assets/inquries1.png';
+import inquries2 from '../assets/inquries2.png';
+import inquries3 from '../assets/inquries3.png';
+import inquries4 from '../assets/inquries4.png';
+import navigate1 from '../assets/navigate1.png';
+import navigate2 from '../assets/navigate2.png';
+import navigate3 from '../assets/navigate3.png';
+import navigate4 from '../assets/navigate4.png';
+
+
 
 export const service = [
   {
@@ -60,28 +70,55 @@ export const service = [
 
 export const navigate=[
     {
-        icon: service1,
-        text: "Automotive SEO",
+        icon: navigate1,
+        text: "Market Trends Analysis",
         description:
-          "Drive Your Success with Automotive SEO: Ignite Online Visibility and Outrace the Competition. Accelerate Your Business Growth Today",
+          "Predictive insights to guide real estate strategies.",
       },
       {
-        icon: service2,
-        text: "PPC Precision",
+        icon: navigate2,
+        text: "Targeted Buyer Persona",
         description:
-          "Maximize visibility and drive quality traffic with meticulously targeted Pay-Per-Click campaigns.",
+          "Understand and connect with your ideal property buyers.",
       },
       {
-        icon: service3,
-        text: "Social Acceleration",
+        icon: navigate3,
+        text: "Competitor Insights",
         description:
-          "Engage and influence your audience across social media platforms, amplifying your brand's presence and connection.",
+          "Stand out in the property market with informed strategies.",
       },
       {
-        icon: service4,
-        text: "Content Excellence",
+        icon: navigate4,
+        text: "Visual Content Appeal",
         description:
-          "Craft compelling, automotive-specific content that resonates with enthusiasts and drives engagement.",
+          "Captivate buyers with appealing visuals and immersive experiences.",
       },
 
+];
+
+export const inquries =[
+  {
+    icon: inquries1,
+    text: "Call-to-Action Optimization",
+    description:
+      "Our carefully crafted CTAs guide potential buyers through the property journey, enhancing engagement and conversion rates.",
+  },
+  {
+    icon: inquries2,
+    text: "Landing Page Efficiency",
+    description:
+      "Tailored landing pages are designed for maximum property lead conversion. They provide seamless user experiences and clear pathways for inquiry submission.",
+  },
+  {
+    icon: inquries3,
+    text: "Social Proof Utilization",
+    description:
+      "Leverage the power of testimonials and success stories from satisfied buyers to build trust and credibility, encouraging hesitant prospects to, take action",
+  },
+  {
+    icon: inquries4,
+    text: "Mobile-Friendly Experience",
+    description:
+      "With a responsive design approach, our strategies ensure a seamless browsing experience across all devices. This responsiveness enhances engagement and conversions by accommodating the preferences of on-the-go property seekers.",
+  },
 ];

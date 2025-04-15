@@ -5,15 +5,17 @@ import herobg from './assets/herobg.png';
 import Maestery from './components/Maestery';
 import  Service  from './components/Service';
 import Navigate from './components/Navigate';
+import Converstion from './components/Converstion';
+import Inquries from './components/Inquries';
 
 
 const App = () => {
   return (
     <div  style={{
       backgroundImage: `url(${herobg})`,
-      backgroundSize: '100% 60%',
+      backgroundSize: '100% 20%',
       backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'top center',
+      backgroundPosition: 'top',
       minHeight: '90vh',
     }}>
     <Nav/>
@@ -22,6 +24,8 @@ const App = () => {
       <Maestery/>
       <Service/>
       <Navigate/>
+      <Converstion/>
+      <Inquries/>
     </div>
     </div>
     

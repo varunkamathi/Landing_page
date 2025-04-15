@@ -13,7 +13,7 @@ const Navigate = () => {
       </p>
 
       <div className="flex flex-col lg:flex-row items-stretch relative gap-10">
-        <div className="w-full lg:w-1/2 flex flex-col justify-center z-10">
+        <div className="w-150 lg:w-1/2 flex flex-col justify-center z-10">
           {navigate.map((item, index) => (
             <div
               key={index}
@@ -40,7 +40,7 @@ const Navigate = () => {
           <img
             src={navigete}
             alt="Navigate"
-            className="w-160 max-w-[1000px] h-160 object-contain lg:-ml-50"
+            className="w-160 max-w-[1000px] h-175 object-contain lg:-ml-50"
           />
         </div>
       </div>
