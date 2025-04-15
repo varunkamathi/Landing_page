@@ -7,6 +7,7 @@ import right from '../assets/right.png'
 
 const Testmonial = () => {
   return (
+    
     <div className='text-center items-center px-4 md:px-8 mb-20'>
       <h1 className='font-bold text-3xl md:text-4xl mb-5 text-gray-800'>
         What Our Pharma Partners Say
@@ -15,7 +16,7 @@ const Testmonial = () => {
         Driving Transformations, One Brand at a Time
       </p>
 
-      <div className='max-w-5xl mx-auto p-6 md:p-10 bg-slate-200 rounded-xl shadow-lg'>
+      <div className='max-w-5xl mx-auto p-6 md:p-10 bg-slate-50 rounded-xl shadow-lg'>
       <div className='flex flex-col md:flex-row items-center justify-center gap-8 '>
         
         <div>

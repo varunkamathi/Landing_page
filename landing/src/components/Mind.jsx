@@ -2,7 +2,7 @@ import React from 'react';
 
 const Mind = () => {
   return (
-    <div className='flex flex-col items-center text-center px-4 mb-20 py-16 bg-gradient-to-r from-blue-100 via-white to-pink-100'>
+    <div className='flex flex-col items-center text-center px-4 mb-20 py-16'>
       <h1 className='font-bold text-3xl md:text-4xl mb-5 text-gray-800'>
         Your Peace of Mind
       </h1>
