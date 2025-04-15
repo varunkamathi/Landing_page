@@ -14,6 +14,11 @@ import navigate1 from '../assets/navigate1.png';
 import navigate2 from '../assets/navigate2.png';
 import navigate3 from '../assets/navigate3.png';
 import navigate4 from '../assets/navigate4.png';
+import experties1 from '../assets/experties1.png';
+import experties2 from '../assets/experties2.png';
+import experties3 from '../assets/experties3.png';
+import experties4 from '../assets/experties4.png';
+
 
 
 
@@ -120,5 +125,32 @@ export const inquries =[
     text: "Mobile-Friendly Experience",
     description:
       "With a responsive design approach, our strategies ensure a seamless browsing experience across all devices. This responsiveness enhances engagement and conversions by accommodating the preferences of on-the-go property seekers.",
+  },
+];
+
+export const expertise = [
+  {
+    icon: experties1,
+    text: "Effective CTA",
+    description:
+      "See how our strategic CTAs drove a significant increase in property inquiries and accelerated sales for a real estate agency.",
+  },
+  {
+    icon: experties2,
+    text: "Conversion-Optimized Landing Pages",
+    description:
+      "Explore a case study where our landing page optimization increased property lead conversion rates by 30%",
+  },
+  {
+    icon: experties3,
+    text: "Trust Building with Social Proof",
+    description:
+      "Discover how leveraging client testimonials boosted buyer confidence, leading to higher conversion rates for a property development project",
+  },
+  {
+    icon: experties4,
+    text: "Mobile-First Success:",
+    description:
+      "Learn how our mobile-responsive design approach resulted in a 25% increase in inquiries from mobile users for a real estate agency",
   },
 ];

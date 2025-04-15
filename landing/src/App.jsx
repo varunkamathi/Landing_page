@@ -7,6 +7,10 @@ import  Service  from './components/Service';
 import Navigate from './components/Navigate';
 import Converstion from './components/Converstion';
 import Inquries from './components/Inquries';
+import Expertise from './components/Expertise';
+import Mind from './components/Mind';
+import Testmonial from './components/Testmonial';
+import Question from './components/FAQItem';
 
 
 const App = () => {
@@ -26,6 +30,10 @@ const App = () => {
       <Navigate/>
       <Converstion/>
       <Inquries/>
+      <Expertise/>
+      <Mind/>
+      <Testmonial/>
+      <Question/>
     </div>
     </div>
     
