@@ -57,9 +57,7 @@ const ContactUs = () => {
 
         
         <div className="flex justify-center mt-8">
-          <button className="bg-blue-500 w-60 rounded-2xl text-2xl h-12 text-white font-bold hover:bg-blue-600 transition-all duration-300">
-            Get Started
-          </button>
+        <button className='bg-blue-500 w-70 rounded-4xl text-2xl h-10 text-white font-bold'>Get started</button>
         </div>
       </div>
     </div>

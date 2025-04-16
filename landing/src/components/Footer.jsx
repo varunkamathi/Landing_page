@@ -59,22 +59,22 @@ const Footer = () => {
         <div className="md:w-1/3">
           <p className="font-semibold text-gray-900 mb-4">Social</p>
           <div className="flex flex-wrap gap-4 text-white">
-            <div className="bg-black p-2 rounded-full">
+            <div className="bg-white text-black p-2 rounded-full">
               <FaXTwitter />
             </div>
-            <div className="bg-black p-2 rounded-full">
+            <div className="bg-white text-black  p-2 rounded-full">
               <FaFacebookF />
             </div>
-            <div className="bg-black p-2 rounded-full">
+            <div className="bg-white text-black  p-2 rounded-full">
               <FaYoutube />
             </div>
-            <div className="bg-black p-2 rounded-full">
+            <div className="bg-white text-black  p-2 rounded-full">
               <FaPinterestP />
             </div>
-            <div className="bg-black p-2 rounded-full">
+            <div className="bg-white text-black  p-2 rounded-full">
               <FaWhatsapp />
             </div>
-            <div className="bg-black p-2 rounded-full">
+            <div className="bg-white text-black  p-2 rounded-full">
               <FaInstagram />
             </div>
           </div>
